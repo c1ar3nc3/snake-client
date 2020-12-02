@@ -17,6 +17,20 @@ const connect = function() {
     conn.write("Name: NaN");
   })
 
+  conn.on('connect', () => {
+    // setInterval(() => {
+    //   conn.write("Move: up");
+    // },50)
+    // setTimeout(() => {
+    //   conn.write("Move: up");
+    // },100)
+    // setTimeout(() => {
+    //   conn.write("Move: up");
+    // },150)
+    // setTimeout(() => {
+    //   conn.write("Move: up");
+    // },200)
+  })
   return conn;
 };
 
