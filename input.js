@@ -30,6 +30,18 @@ const handleUserInput = (key) => {
   if (key === 'd') {
     connection.write("Move: right")
   }
+  if (key === 'q') {
+    connection.write("Say: QQ")
+  }
+  if (key === 'e') {
+    connection.write("Say: EZ")
+  }
+  if (key === 'f') {
+    connection.write("Say: FAIL")
+  }
+  if (key === 'g') {
+    connection.write("Say: GG")
+  }
 };
 
 handleUserInput();
